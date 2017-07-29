@@ -1,0 +1,13 @@
+{
+  "name": "todddukart/talk-slides",
+  "authors": [
+    {
+      "name": "Todd Dukart",
+      "email": "tdukart@aloftinteractive.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.3"
+  }
+}
