@@ -6,11 +6,11 @@ var path = require( 'path' );
 module.exports = function () {
 	return {
 		entry: {
-			admin: './src/scripts/admin.jsx',
-			client: './src/scripts/client.jsx'
+			admin: './src/scripts/admin.js',
+			client: './src/scripts/client.js'
 		},
 		output: {
-			path: path.resolve( __dirname, 'dist' ),
+			path: path.resolve( __dirname, 'dist/scripts' ),
 			filename: '[name].[hash].js'
 		},
 		module: {

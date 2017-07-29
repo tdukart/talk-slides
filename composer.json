@@ -6,6 +6,17 @@
       "email": "tdukart@aloftinteractive.com"
     }
   ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/tdukart/talk-slides/issues",
+    "source": "https://github.com/tdukart/talk-slides/"
+  },
+  "archive": {
+    "exclude": [
+      "/src",
+      "/scripts"
+    ]
+  },
   "type": "wordpress-plugin",
   "require": {
     "composer/installers": "^1.3"
