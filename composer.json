@@ -6,6 +6,12 @@
       "email": "tdukart@aloftinteractive.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
   "license": "MIT",
   "support": {
     "issues": "https://github.com/tdukart/talk-slides/issues",
@@ -20,5 +26,10 @@
   "type": "wordpress-plugin",
   "require": {
     "composer/installers": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ToddDukart\\TalkSlides\\": "classes"
+    }
   }
 }

@@ -10,3 +10,6 @@ Author URI: https://todddukart.com/
 License: MIT
 */
 
+require_once 'vendor/autoload.php';
+
+new ToddDukart\TalkSlides\TalkSlidesCPT();
